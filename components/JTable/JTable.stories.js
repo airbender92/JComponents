@@ -2,7 +2,7 @@
  * @Author: wangyunbo
  * @Date: 2021-06-29 17:53:37
  * @LastEditors: wangyunbo
- * @LastEditTime: 2021-06-29 17:54:06
+ * @LastEditTime: 2021-06-29 18:10:26
  * @Description: file content
  * @FilePath: \medium-reusable-vue-components\components\JTable\JTable.stories.js
  */
@@ -29,6 +29,23 @@ storiesOf('JTable', module)
       />
     `,
     data: () => ({
+      items
+    })
+  }))
+  .add('with 7 items + header', () => ({
+    components: { JTable },
+    template:
+      `
+      <JTable
+        :header="header"
+        :items="items"
+      />
+      `,
+    data: () => ({
+      header: [
+        'NAME',
+        'EMAIL'
+      ],
       items
     })
   }))
