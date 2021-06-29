@@ -1,10 +1,10 @@
 {
   "name": "@airbender92/j-table",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@airbender92/j-table-row": "^0.1.1"
+    "@airbender92/j-table-row": "^0.1.2"
   }
 }
