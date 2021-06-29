@@ -1,6 +1,6 @@
 {
   "name": "@airbender92/j-table-row",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publishConfig": {
     "access": "public"
   }
